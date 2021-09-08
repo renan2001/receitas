@@ -1,4 +1,4 @@
-import Menu from "../components/menu"
+import Menu from "./menu"
 import Image from 'next/image'
 import Link  from 'next/link'
 import Foto from '../imagens/hamburguer.jpg'
