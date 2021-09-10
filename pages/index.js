@@ -17,7 +17,7 @@ export default function index() {
         <div className={styles.grid}>
           <p className={styles.card}>
             <h1 >Seja bem-vindo </h1>
-            <Link href="/">
+            <Link href="">
             <a ><h2>Receitas rápidas</h2></a>
             </Link>
           <p >
