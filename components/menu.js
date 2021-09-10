@@ -9,13 +9,13 @@ function Menu(){
            <div>
         <navbar> 
             <Link href='/'>
-             <a >colocar logo e input pesauisa</a>
+             <a >colocar logo e input pesauisa
              
              <input 
             type="text"
             id="pesquisa" 
             name="pesquisa" 
-            value="Pesquisar receita" />
+            value="Pesquisar receita" /></a>
           </Link>
            
             </navbar>

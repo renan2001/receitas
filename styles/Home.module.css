@@ -146,6 +146,16 @@ margin: 35px 30px;
   margin-left: 35rem;
  
 }
+.facebook{
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: Roboto;
+  line-height: 1.0;
+  font-size: 1.5rem;
+  color: #001affc4;  
+
+}
 
 
 .card {
