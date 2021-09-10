@@ -6,7 +6,7 @@ function Footer(){
     return (
         <>
             <footer className={styles.footer}>
-              {/*  <Link  href="https://pt-br.facebook.com/"
+              <Link  href="https://pt-br.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer">
                
@@ -31,7 +31,7 @@ function Footer(){
                 </span>
                 </a>
                 
-    </Link> */}
+    </Link>
             </footer>
         </>
     )
