@@ -17,16 +17,14 @@ export default function index() {
         <div className={styles.grid}>
           <p className={styles.card}>
             <h1 >Seja bem-vindo </h1>
-            <Link href="">
-            <a ><h2>Receitas rápidas</h2></a>
+            <h2>Receitas rápidas</h2>
+              <p >
+                Aqui você irá desfrutar de <br/>
+                comidas deliciosas
+              </p>
+            <Link href="/home">
+            <a><button className={styles.button}>CLIQUE PARA COZINHAR</button></a>
             </Link>
-          <p >
-            Aqui você irá desfrutar de <br/>
-            comidas deliciosas
-          </p>
-          <Link href="/home">
-          <a ><button className={styles.button}>CLIQUE PARA COZINHAR</button></a>
-          </Link>
           </p>
         <Image src="/frango.png" width={400} height={280} />
         </ div>
