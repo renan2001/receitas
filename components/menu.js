@@ -9,16 +9,14 @@ function Menu(){
            <div>
         <navbar> 
             <Link href='/'>
-             <a >colocar logo e input pesauisa
-
-             </a>
-             </Link>
+             <a >colocar logo e input pesauisa</a>
+             
              <input 
             type="text"
             id="pesquisa" 
             name="pesquisa" 
             value="Pesquisar receita" />
-          
+          </Link>
            
             </navbar>
             <div className={styles.grid}>
