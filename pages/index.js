@@ -22,9 +22,9 @@ export default function index() {
                 Aqui você irá desfrutar de <br/>
                 comidas deliciosas
               </p>
-          {/*  <Link href="/home">
+          <Link href="/home">
             <a><button className={styles.button}>CLIQUE PARA COZINHAR</button></a>
-  </Link> */}
+  </Link>
           </p>
         <Image src="/frango.png" width={400} height={280} />
         </ div>
