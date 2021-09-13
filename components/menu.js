@@ -6,19 +6,21 @@ import Foto from '../imagens/abobrinha.jpg'
 function Menu(){
     return (
         <>
-           <div>
-        <navbar> 
+      
+        <div className={styles.navbar}>
             <Link href='/'>
-             <a >colocar logo e input pesauisa
+             <h3>Receitas Rapidas</h3>
              
-             <input 
+            
+            </Link>
+            <input 
             type="text"
             id="pesquisa" 
             name="pesquisa" 
-            value="Pesquisar receita" /></a>
-          </Link>
+            value="Pesquisar receita" />
            
-            </navbar>
+           
+          </div> 
             <div className={styles.grid}>
           <Link href="/home">
           <a className={styles.card}>
@@ -30,7 +32,7 @@ function Menu(){
 
          
         </div>        
-        </div>  
+         
          
     
         </>
