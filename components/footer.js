@@ -19,19 +19,7 @@ function Footer(){
                 </a>
                 
                 </Link>
-                <Link      href="https://pt-br.facebook.com/"
-                target="_blank"
-                rel="noopener noreferrer">
-               
-           
-               
-                    <a className={styles.facebook}>facebook{' '}
-                <span className={styles.logo}>
-                    <Image src="/facebook(5).png" alt="instagra Logo" width={15} height={15} />
-                </span>
-                </a>
                 
-    </Link>
             </footer>
         </>
     )
