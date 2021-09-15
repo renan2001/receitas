@@ -38,7 +38,7 @@ function Menu(){
           <Link href="/"> M</Link>
           <Link href="/"> N</Link>
           <Link href="/"> O</Link>
-          <Link href="/"> P</Link>
+          <Link href="/pimentao"> P</Link>
           <Link href="/"> Q</Link>
           <Link href="/"> R</Link>
           <Link href="/"> S</Link>
@@ -55,41 +55,9 @@ function Menu(){
         (Clique na letra inicial do produto principal){' '}
         </p>
         </div>
-        <div className={styles.gridd}>
-          <a href="/receita1" className={styles.card}>
-            <h3>Receita de Abobrinha&rarr;</h3>
-            <p>Rápido e Pratica.</p>
-            <Image src="/abobrinha.jpg" width={940} height={480} />
-          </a>
+       
 
-          <a href="/receita2" className={styles.card}>
-            <h3>Receita de Frango &rarr;</h3>
-            <p>Rápido e Pratica.</p>
-            <Image src="/frango.png" width={900} height={480} />
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Receita de Abacaxi &rarr;</h3>
-            <p>Rápido e Pratica.</p>
-            <Image src="/abacaxi.jpg" width={900} height={480} />
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Receita de Pimentão &rarr;</h3>
-            <p>
-            Rápido e Pratica.
-            </p>
-            <Image src="/pimentao.jpg" width={900} height={480} />
-          </a>
-        
-
-        </div>    
+          
          
          
     

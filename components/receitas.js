@@ -5,17 +5,41 @@ import Link  from 'next/link'
 function Receitas(){
     return (
         <>           
-        <div className={styles.grid}>
-          <Link href="/">
+  
+        <div className={styles.gridd}>
+          <a href="/receita1" className={styles.card}>
+            <h3>Receita de Abobrinha&rarr;</h3>
+            <p>Rápido e Pratica.</p>
+            <Image src="/abobrinha.jpg" width={940} height={480} />
+          </a>
+
+          <a href="/receita2" className={styles.card}>
+            <h3>Receita de Frango &rarr;</h3>
+            <p>Rápido e Pratica.</p>
+            <Image src="/franguinho.jpg" width={900} height={480} />
+          </a>
+
+          <a
+            href="https://github.com/vercel/next.js/tree/master/examples"
+            className={styles.card}
+          >
+            <h3>Receita de Abacaxi &rarr;</h3>
+            <p>Rápido e Pratica.</p>
+            <Image src="/abacaxi.jpg" width={900} height={480} />
+          </a>
+
+
+          <Link href='/pimentao'>
           <a className={styles.card}>
-          <Image src={Foto}></Image >
-            <h2>abobrinha assada </h2>
-            <p>rapido e facil de ser preparada </p>
+            <h3>Receita de Pimentão &rarr;</h3>
+            <p>
+            Rápido e Pratica.
+            </p>
+            <Image src="/pimentao.jpg" width={900} height={480} />
           </a>
           </Link>
 
-         
-        </div>        
+        </div>    
         </>
     )
 }

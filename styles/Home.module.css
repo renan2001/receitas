@@ -46,7 +46,78 @@
 .title a:active {
   text-decoration: underline;
 }
+.div1{
+  width: 70vw;
+  height: 150vh;
+  border-bottom: 1px solid #eaeaea;
+  background: #f7e7c5;
+  margin-right: 5%;
+  margin-left: 15%;
 
+ 
+  
+}
+
+/*.div1 div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.div1 input{
+  width: 253px;
+  height: 38px;
+  background: #FFFFFF;
+  border: 1px solid #E7E7E7;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display: flex;
+}
+
+.div1 h1{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 38px;
+line-height:65%;
+color: #000000;
+}*/
+.div2 {
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 15%;
+  margin-right: 15%;
+  
+  
+ 
+}
+.div3 {
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin-left: 25%;
+  margin-right: 25%;
+
+ 
+ 
+}
+
+
+
+.imagem1{
+  width: auto;
+  height: 150px;
+  border-bottom: 1px solid #eaeaea;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  background: #f7e7c5;
+  margin: 250px;
+
+}
 .button {
 display: flex;
 flex-direction: row;
