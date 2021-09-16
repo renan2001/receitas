@@ -13,22 +13,23 @@ function Menu(){
              
             
             </Link>
+            
             <input 
             type="text"
             id="pesquisa" 
             name="pesquisa" 
             value="Pesquisar receita" />
-           
+          
            
           </div> 
           <div>  
           <h1 className={styles.title}>
-          <Link href="/"> A</Link> 
-          <Link href="/"> B</Link>
+          <Link href="/abacaxi"> A</Link> 
+          <Link href="/berinjela"> B</Link>
           <Link href="/"> C</Link>
           <Link href="/"> D</Link>
           <Link href="/"> E</Link>
-          <Link href="/"> F</Link>
+          <Link href="/frango"> F</Link>
           <Link href="/"> G</Link>
           <Link href="/"> H</Link>
           <Link href="/"> I</Link>

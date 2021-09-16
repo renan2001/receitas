@@ -7,20 +7,20 @@ function Receitas(){
         <>           
   
         <div className={styles.gridd}>
-          <a href="/receita1" className={styles.card}>
-            <h3>Receita de Abobrinha&rarr;</h3>
+          <a href="/berinjela" className={styles.card}>
+            <h3>Receita de berinjela&rarr;</h3>
             <p>Rápido e Pratica.</p>
-            <Image src="/abobrinha.jpg" width={940} height={480} />
+            <Image src="/berinjela.jpg" width={940} height={480} />
           </a>
 
-          <a href="/receita2" className={styles.card}>
+          <a href="/frango" className={styles.card}>
             <h3>Receita de Frango &rarr;</h3>
             <p>Rápido e Pratica.</p>
             <Image src="/franguinho.jpg" width={900} height={480} />
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="/abacaxi"
             className={styles.card}
           >
             <h3>Receita de Abacaxi &rarr;</h3>
