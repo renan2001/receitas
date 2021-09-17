@@ -7,7 +7,7 @@ function Receitas(){
         <>           
    
         <div className={styles.gridd}>
-          <Link href="/berinjela">
+          <Link href='/berinjela'>
           <a  className={styles.card}>
             <h3>Receita de berinjela&rarr;</h3>
             <p>Rápido e Pratica.</p>
@@ -16,7 +16,7 @@ function Receitas(){
           </Link>
 
 
-          <Link href="/frango">
+          <Link href='/frango'>
           <a  className={styles.card}>
             <h3>Receita de Frango &rarr;</h3>
             <p>Rápido e Pratica.</p>
@@ -24,7 +24,7 @@ function Receitas(){
           </a>
           </Link>
 
-          <Link href="/abacaxi">
+          <Link href='/abacaxi'>
           <a className={styles.card}>
             <h3>Receita de Abacaxi &rarr;</h3>
             <p>Rápido e Pratica.</p>
