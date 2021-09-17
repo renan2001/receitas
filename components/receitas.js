@@ -5,28 +5,32 @@ import Link  from 'next/link'
 function Receitas(){
     return (
         <>           
-  
+   
         <div className={styles.gridd}>
-          <a href="/berinjela" className={styles.card}>
+          <Link href="/berinjela">
+          <a  className={styles.card}>
             <h3>Receita de berinjela&rarr;</h3>
             <p>Rápido e Pratica.</p>
             <Image src="/berinjela.jpg" width={940} height={480} />
           </a>
+          </Link>
 
-          <a href="/frango" className={styles.card}>
+
+          <Link href="/frango">
+          <a  className={styles.card}>
             <h3>Receita de Frango &rarr;</h3>
             <p>Rápido e Pratica.</p>
             <Image src="/franguinho.jpg" width={900} height={480} />
           </a>
+          </Link>
 
-          <a
-            href="/abacaxi"
-            className={styles.card}
-          >
+          <Link href="/abacaxi">
+          <a className={styles.card}>
             <h3>Receita de Abacaxi &rarr;</h3>
             <p>Rápido e Pratica.</p>
             <Image src="/abacaxi.jpg" width={900} height={480} />
           </a>
+          </Link>
 
 
           <Link href='/pimentao'>
