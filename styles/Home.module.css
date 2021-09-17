@@ -295,6 +295,7 @@ margin: 35px 30px;
   justify-content: center;
   align-items: center;
   background: #FFB800;
+  justify-content: space-around;
 }
  
   
@@ -317,16 +318,14 @@ margin: 35px 30px;
   }
   
   .navbar input {
-    text-align: left;
-    position: absolute;
-    width: 313px;
-    height: 46px;
-    left: 1500px;
-    top: 35px;
+    width: 253px;
+    height: 34px;
     background: #FFFFFF;
     border: 1px solid #E7E7E7;
     box-sizing: border-box;
     border-radius: 10px;
+    display: flex;
+    
     
   }
 
