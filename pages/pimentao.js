@@ -57,7 +57,7 @@ function Pimentao(){
     <li>Limpe o pimentão, corte o top, remova o interior e faça uma base de queijo muçarela</li>
     <li>Em uma tigela, misture o queijo cottage, o molho de tomate, as ervas (eu usei manjericão e salsinha), sal e pimenta do reino à gosto.</li>
     <li>Depois, coloque o recheio no pimentão e cubra com uma fatia de queijo muçarela. Leve ao forno por 20 minutos</li>
-    Bom apetite!
+    Bom apetite
 
 
 </ul>
