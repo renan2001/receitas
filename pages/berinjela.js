@@ -16,7 +16,7 @@ function Berinjela(){
 
         
         <div className={styles.div3} >
-
+        <Image src="/recheio2.jpg" width={400} height={280} />
         </div>
        
        <br>
