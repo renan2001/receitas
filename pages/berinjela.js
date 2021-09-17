@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Menu from '../components/menu'
 import Footer from '../components/footer'
 
-function Frango(){
+function Berinjela(){
     return(
         <>
          <Menu />
@@ -15,7 +15,7 @@ function Frango(){
        
 
          <div className={styles.div3} >
-        <Image src="/berinjela.jpg" width={400} height={280} />
+        <Image src="/recheio2.jpg" width={400} height={280} />
         </div>
        <br>
 
@@ -58,17 +58,11 @@ function Frango(){
 
 <ul>
 
-<li>Em um processador, coloque o peito de frango sem osso e triture.</li>
-
-<li>Transfira para um recipiente, tempere com sal, pimenta e outros temperos que preferir (alho ralado, chimichurri, pimenta caiena, páprica).</li>
-
-<li>Adicione a cebola picada, uma colher de sopa da farinha de aveia e misture bem.</li>
-
-<li>Molde a massa em formato de hambúrguer. Se preferir, use uma balança para deixar todos com a mesma quantidade.</li>
-
-<li> Após fazer os hambúrgueres, empane cada um na farinha de aveia.</li>
-
-<li>Congele ou frite na hora.</li>
+<li>Preaqueça o forno a 180 ºC (temperatura média). </li>
+<li>Descasque e pique fino a cebola e os dentes de alho. Lave, seque e corte o tomate ao meio; descarte as sementes e corte em cubos pequenos. </li>
+<li>Com uma escovinha para legumes, lave a casca da berinjela sob água corrente. Corte a berinjela ao meio, no sentido do comprimento, e, com a ponta da faca, retire a polpa de cada metade, deixando cerca de 1 cm de borda - a berinjela fica no formato de uma canoa. Pique a polpa da berinjela e reserve. </li>
+<li>Leve uma frigideira ao fogo médio. Quando aquecer, regue o azeite, junte a cebola e o alho. Refogue por 3 minutos até murchar. Acrescente a polpa da berinjela picada e misture bem. Deixe cozinhar por cerca de 5 minutos até ficar macia. Junte o tomate e o manjericão e deixe cozinhar por mais 3 minutos. Tempere com sal e pimenta e desligue o fogo. </li>
+<li>Com uma colher, preencha cada metade de berinjela com o refogado, polvilhe com o queijo parmesão ralado e transfira para uma assadeira. Leve ao forno para assar até dourar. Sirva a seguir.</li>
 
 
 </ul>
@@ -84,4 +78,4 @@ function Frango(){
     )
 }
 
-export default Frango
+export default Berinjela
