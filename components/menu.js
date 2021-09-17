@@ -9,13 +9,10 @@ function Menu(){
       
         <div className={styles.navbar}>
             <Link href='/'>
-             <h2>Receitas Rapdas</h2>
+             <h2>Receitas Rapidas</h2>
              
             
             </Link>
-            <div>
-            
-            </div>
             <input 
             type="text"
             id="pesquisa" 
